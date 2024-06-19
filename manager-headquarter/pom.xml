@@ -84,7 +84,7 @@
 
     <profiles>
         <profile>
-            <id>headquarter</id>
+            <id>manager-headquarter</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>

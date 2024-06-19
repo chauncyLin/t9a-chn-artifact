@@ -84,7 +84,7 @@
 
     <profiles>
         <profile>
-            <id>gamecenter</id>
+            <id>game-center</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>

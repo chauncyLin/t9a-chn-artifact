@@ -9,7 +9,6 @@
         <module name="game-hoster" />
         <module name="basic-infra" />
         <module name="army-builder" />
-        <module name="game-center" />
         <module name="translation-builder" />
         <module name="combat-simulator" />
         <module name="game-warehouse" />

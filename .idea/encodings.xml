@@ -9,15 +9,17 @@
     <file url="file://$PROJECT_DIR$/combat-simulator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/game-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/game-center/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/game-hoster/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/game-hoster/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/game-host/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/game-host/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/game-warehouse/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/game-warehouse/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/game-werehouse/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/game-werehouse/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/manager-headquarter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/manager-headquarter/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/translation-builder/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/translation-builder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/translation-tools/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/translation-tools/src/main/resources" charset="UTF-8" />
   </component>
 </project>

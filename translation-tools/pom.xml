@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.chauncey</groupId>
-    <artifactId>manager-headquarter</artifactId>
+    <artifactId>translation-tools</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>manager-headquarter</name>
-    <description>manager-headquarter</description>
-    <packaging>pom</packaging>
+    <name>translation-builder</name>
+    <description>translation-builder</description>
     <properties>
         <java.version>11</java.version>
         <maven.compiler.source>11</maven.compiler.source>
@@ -82,20 +81,6 @@
         </dependencies>
     </dependencyManagement>
 
-    <profiles>
-        <profile>
-            <id>manager-headquarter</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <modules>
-                <module>../basic-infra</module>
-                <module>../game-warehouse</module>
-                <module>../translation-tools</module>
-            </modules>
-        </profile>
-    </profiles>
-
     <build>
         <plugins>
             <plugin>
@@ -113,7 +98,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.chauncey.managerheadquarter.ManagerHeadquarterApplication</mainClass>
+                    <mainClass>com.chauncey.translatiotools.TranslationToolsApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="game-hoster" />
+        <module name="translation-tools" />
+        <module name="game-host" />
         <module name="basic-infra" />
         <module name="army-builder" />
-        <module name="translation-builder" />
         <module name="combat-simulator" />
         <module name="game-warehouse" />
       </profile>

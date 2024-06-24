@@ -3,7 +3,9 @@
   <component name="SonarLintProjectSettings">
     <option name="moduleMapping">
       <map>
+        <entry key="game-host" value="game-hoster" />
         <entry key="game-warehouse" value="game-werehouse" />
+        <entry key="translation-tools" value="translation-builder" />
       </map>
     </option>
   </component>

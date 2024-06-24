@@ -93,7 +93,7 @@
                 <module>../game-warehouse</module>
                 <module>../army-builder</module>
                 <module>../combat-simulator</module>
-                <module>../game-hoster</module>
+                <module>../game-host</module>
             </modules>
         </profile>
     </profiles>

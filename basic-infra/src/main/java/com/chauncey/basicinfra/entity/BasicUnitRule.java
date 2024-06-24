@@ -8,6 +8,7 @@
 package com.chauncey.basicinfra.entity;
 
 import com.chauncey.basicinfra.entity.basic.UnitAttribute;
+import com.chauncey.basicinfra.enums.MagicOption;
 import com.chauncey.basicinfra.enums.ModelBaseSize;
 import com.chauncey.basicinfra.enums.UnitType;
 import lombok.Getter;
@@ -40,4 +41,6 @@ public class BasicUnitRule {
     private Map<String,Object> equipOptions;
 
     private Map<String,Object> mountOptions;
+
+    private Enum<MagicOption> magicOption;
 }

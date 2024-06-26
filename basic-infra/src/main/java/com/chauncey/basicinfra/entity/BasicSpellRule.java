@@ -1,22 +1,32 @@
 /**
- * @className：BasicUnitRole
- * @description: 基本单位实体类
+ * @className：BasicSpellRule
+ * @description: 基本法术实体类
  * @author: CN-ChengyuanLin
  * @date: 2024/6/24 13:34
  * @version 1.0
  */
 package com.chauncey.basicinfra.entity;
 
-import com.chauncey.basicinfra.enums.ModelBaseSize;
+import com.chauncey.basicinfra.enums.SpellDurationType;
 import com.chauncey.basicinfra.enums.SpellPath;
-import com.chauncey.basicinfra.enums.UnitType;
+import com.chauncey.basicinfra.enums.SpellType;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.io.Serializable;
 
 
 @Getter
 @Setter
-public class BasicSpellRule {
+@AllArgsConstructor
+@NoArgsConstructor
+public class BasicSpellRule implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    private String spellId;
 
     private String spellName;
 
@@ -26,9 +36,9 @@ public class BasicSpellRule {
 
     private int range;
 
-    private Enum<UnitType> spellType;
+    private Enum<SpellType> spellType;
 
-    private Enum<ModelBaseSize> spellDuration;
+    private Enum<SpellDurationType> spellDuration;
 
     private String effect;
 }
